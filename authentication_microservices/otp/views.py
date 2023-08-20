@@ -31,10 +31,8 @@ class GenerateOTP(APIView):
             otp = generate_otp(request)
 
             if otp:
-                return GenericSuccessResponse(
-                    data={"otp": otp},
-                    message=OTP_SENT_SUCCESSFULLY,
-                    status=status.HTTP_201_CREATED)
+                return GenericSuccessResponse(message=OTP_SENT_SUCCESSFULLY,
+                                              status=status.HTTP_201_CREATED)
 
         except Users.DoesNotExist as e:
             log_error(e, 10404)

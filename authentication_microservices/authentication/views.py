@@ -6,16 +6,17 @@ from rest_framework.views import APIView
 
 from authentication.helpers import get_authentication_tokens, save_auth_tokens
 from authentication.models import AuthTokens
-from core.constants.message import BAD_REQUEST, INVALID_PHONE_NUMBER, OTP_ALREADY_USED, OTP_EXPIRED, OTP_NOT_MATCHED, OTP_VERIFIED, USER_LOGGED_OUT
+from authentication.serializers import LogingWithPasswordSerializer
+from core.constants.message import BAD_REQUEST, INVALID_PHONE_NUMBER, OTP_ALREADY_USED, OTP_EXPIRED, OTP_NOT_MATCHED, OTP_VERIFIED, USER_LOGGED_OUT, INVALID_PASSWORD
 from common.generic_response import GenericSuccessResponse
 from custom_security.authorization import PublicAPIPermission, JWTAuthentication
 from error_logging.db_log_handler import log_error
-from exception_handler.generic_exception import CustomBadRequest, BadRequest, GenericException
+from exception_handler.generic_exception import CustomBadRequest, BadRequest, GenericException, CustomNotFound
 from otp.models import OTP
 from otp.serializers import ValidateVerifyOTPSerializer
 from otp.services import OTPService
 from users.models import Users
-from users.utils import is_valid_mobile_number
+from users.utils import validated_hashed_password
 
 
 # Create your views here.
@@ -30,7 +31,7 @@ class Login(APIView):
             if not ValidateVerifyOTPSerializer(data=request.data).is_valid():
                 return CustomBadRequest(message=BAD_REQUEST)
 
-            if not is_valid_mobile_number(request.data["mobile_no"]):
+            if not Users.objects.filter(mobile_no=request.data["mobile_no"], is_deleted=False).exists():
                 return CustomBadRequest(message=INVALID_PHONE_NUMBER)
 
             last_otp = OTP.objects.filter(mobile_no=request.data["mobile_no"],
@@ -66,6 +67,42 @@ class Login(APIView):
             log_error(e, 10000)
             return GenericException()
         
+
+class LogingWithPassword(APIView):
+    permission_classes = [PublicAPIPermission]
+
+    @staticmethod
+    def post(request):
+        try:
+            if not LogingWithPasswordSerializer(data=request.data).is_valid():
+                return CustomBadRequest(message=BAD_REQUEST)
+            
+            user = Users.objects.get(mobile_no=request.data["mobile_no"], is_deleted=False)
+            
+            if user is None:
+                raise CustomBadRequest(message=INVALID_PHONE_NUMBER)
+            
+
+            if validated_hashed_password(request.data["password"], user.password):
+                authentication_tokens = get_authentication_tokens(user)
+
+                save_auth_tokens(authentication_tokens)
+
+                return GenericSuccessResponse(data=authentication_tokens,
+                                              status=status.HTTP_200_OK)
+            else:
+                return CustomBadRequest(message=INVALID_PASSWORD)
+            
+
+        except Users.DoesNotExist as e:
+            log_error(e, 10404)
+            return CustomNotFound(message=INVALID_PHONE_NUMBER)
+        except BadRequest as e:
+            raise BadRequest(e.detail)
+        except Exception as e:
+            log_error(e, 10000)
+            return GenericException()
+
 
 class Logout(APIView):
     authentication_classes = [JWTAuthentication]

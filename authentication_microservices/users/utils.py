@@ -33,3 +33,10 @@ def bcrypt_hash_password(password):
     except ValueError:
         # If there's an error during hashing, raise a BadRequest exception with a specific message
         raise BadRequest(detail=PASSWORD_UPDATE)
+
+
+def validated_hashed_password(password, hashed_password):
+    try:
+        return True if bcrypt.checkpw(password.encode("utf8"), hashed_password.encode("utf8")) else False
+    except ValueError:
+        raise BadRequest(detail=PASSWORD_UPDATE)
