@@ -194,7 +194,7 @@ JWT_SECRET = "key@LoginaccEss"
 # Twilio Configuration settings
 
 TWILIO_ACCOUNT_SID = 'ACd097bf29ba3ad8765e50253bfc5e7a94'
-TWILIO_AUTH_TOKEN = '71f66af594fc067c97ae18ceb7f178a6'
+TWILIO_AUTH_TOKEN = '628a375c7609e26e9425b9a43a8e73b6'
 TWILIO_PHONE_NUMBER = +18146288388
 
 # SMTP Client Service
@@ -204,4 +204,3 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'testsmtpemailservice@gmail.com'
 EMAIL_HOST_PASSWORD = "itzhqihnwafshpdn"
-# 'rbkyexnbvxhjbmhj'

@@ -1,0 +1,370 @@
+ERROR 2023-08-24 11:12:45,130 log 14381 139623479637760 Internal Server Error: /api/v1/users/registration
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes 1 positional argument but 2 were given
+ERROR 2023-08-24 11:13:33,156 log 14531 140111124547328 Internal Server Error: /api/v1/users/registration
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes 1 positional argument but 2 were given
+ERROR 2023-08-24 11:14:14,045 log 14604 139886521636608 Internal Server Error: /api/v1/users/registration
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes 1 positional argument but 2 were given
+WARNING 2023-08-24 11:15:08,106 log 14737 140550183646976 Bad Request: /api/v1/users/registration
+ERROR 2023-08-24 11:15:21,448 log 14814 140194683885312 Internal Server Error: /api/v1/users/registration
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes 1 positional argument but 2 were given
+ERROR 2023-08-24 11:15:41,746 log 14909 140294478321408 Internal Server Error: /api/v1/users/registration
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes 1 positional argument but 2 were given
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------------------------------------------------------------------------------------
+ERROR 2023-08-24 11:16:06,329 log 14998 140608197224192 Internal Server Error: /api/v1/users/registration
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes 1 positional argument but 2 were given
+WARNING 2023-08-24 11:28:26,112 log 16622 139872643847936 Forbidden: /api/v1/users/profile
+ERROR 2023-08-24 11:28:43,887 log 16622 139872643847936 Internal Server Error: /api/v1/users/profile
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() takes 1 positional argument but 2 were given
+ERROR 2023-08-24 11:29:26,276 log 16838 139646185670400 Internal Server Error: /api/v1/users/profile
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: patch() takes 1 positional argument but 2 were given
+WARNING 2023-08-24 11:29:38,658 log 16918 139991390701312 Bad Request: /api/v1/users/profile
+WARNING 2023-08-24 11:30:03,306 log 16918 139991390701312 Forbidden: /api/v1/users/profile
+WARNING 2023-08-24 11:30:15,096 log 16918 139991390701312 Forbidden: /api/v1/users/profile
+WARNING 2023-08-24 11:31:11,681 log 17110 139651972601600 Forbidden: /api/v1/users/profile
+WARNING 2023-08-24 11:31:33,941 log 17191 139643871807232 Forbidden: /api/v1/users/profile
+WARNING 2023-08-24 11:31:56,956 log 17245 139906773587712 Forbidden: /api/v1/users/profile
+WARNING 2023-08-24 11:32:47,336 log 17307 139709581883136 Forbidden: /api/v1/users/profile
+WARNING 2023-08-24 11:32:56,103 log 17363 140250329302784 Forbidden: /api/v1/users/profile
+WARNING 2023-08-24 11:33:22,882 log 17460 140393668687616 Forbidden: /api/v1/users/profile
+WARNING 2023-08-24 11:33:34,936 log 17499 139857283839744 Forbidden: /api/v1/users/profile
+ERROR 2023-08-24 11:35:01,592 log 17618 140238265513728 Internal Server Error: /api/v1/users/initiate-reset/
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes 1 positional argument but 2 were given
+ERROR 2023-08-24 11:35:18,459 log 17741 140600822871808 Internal Server Error: /api/v1/users/initiate-reset/
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() takes 1 positional argument but 2 were given
+WARNING 2023-08-24 11:36:04,554 log 17830 140404091516672 Not Found: /favicon.ico
+WARNING 2023-08-24 11:38:03,228 log 17830 140404173719296 Bad Request: /api/v1/login/password
+WARNING 2023-08-24 11:40:19,542 log 18323 139826204858112 Bad Request: /api/v1/login/password
+ERROR 2023-08-24 11:49:18,801 log 19099 140466497844992 Internal Server Error: /api/v1/users/registration
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'practical_assessment.users' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/authentication_microservices/authentication_microservices/users/views.py", line 47, in post
+    if Users.objects.filter(mobile_no=request.data["mobile_no"]).exists():
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1241, in exists
+    return self.query.has_results(using=self.db)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/sql/query.py", line 598, in has_results
+    return compiler.has_results()
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1530, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1562, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'practical_assessment.users' doesn't exist")
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+MySQLdb.ProgrammingError: (1146, "Table 'practical_assessment.error_logging' doesn't exist")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/authentication_microservices/authentication_microservices/users/views.py", line 67, in post
+    log_error(e, 11000)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/authentication_microservices/authentication_microservices/error_logging/db_log_handler.py", line 9, in log_error
+    db_logger.exception(error, {"error_code": error_code})
+  File "/home/taslimarif/anaconda3/lib/python3.8/logging/__init__.py", line 1469, in exception
+    self.error(msg, *args, exc_info=exc_info, **kwargs)
+  File "/home/taslimarif/anaconda3/lib/python3.8/logging/__init__.py", line 1463, in error
+    self._log(ERROR, msg, args, **kwargs)
+  File "/home/taslimarif/anaconda3/lib/python3.8/logging/__init__.py", line 1577, in _log
+    self.handle(record)
+  File "/home/taslimarif/anaconda3/lib/python3.8/logging/__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "/home/taslimarif/anaconda3/lib/python3.8/logging/__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "/home/taslimarif/anaconda3/lib/python3.8/logging/__init__.py", line 950, in handle
+    self.emit(record)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/authentication_microservices/authentication_microservices/error_logging/db_log_handler.py", line 51, in emit
+    StatusLog.objects.create(**kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/models/sql/compiler.py", line 1822, in execute_sql
+    cursor.execute(sql, params)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 102, in execute
+    return super().execute(sql, params)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/django/db/backends/mysql/base.py", line 75, in execute
+    return self.cursor.execute(query, args)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 179, in execute
+    res = self._query(mogrified_query)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/MySQLdb/cursors.py", line 330, in _query
+    db.query(q)
+  File "/home/taslimarif/Downloads/taslimarif downloads/aaaaaa/venv/lib/python3.8/site-packages/MySQLdb/connections.py", line 255, in query
+    _mysql.connection.query(self, query)
+django.db.utils.ProgrammingError: (1146, "Table 'practical_assessment.error_logging' doesn't exist")
+WARNING 2023-08-24 11:53:01,539 log 19320 139964229191424 Bad Request: /api/v1/login/password

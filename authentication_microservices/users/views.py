@@ -30,12 +30,12 @@ STATIC_UUID = "3f7061f6-3eba-11ee-be56-0242ac120002"
 class RegistrationView(APIView):
     permission_classes = [PublicAPIPermission]
 
-    def post(request):
+    def post(self, request):
         try:
             with transaction.atomic():
                 registration_serializer = RegistrationSerializer(data=request.data)
 
-                if registration_serializer.is_valid(raise_exception=True):
+                if registration_serializer.is_valid():
                     # Validating mobile number and email
                     if not is_valid_mobile_number(request.data["mobile_no"]):
                         return CustomBadRequest(message=INVALID_PHONE_NUMBER)
@@ -72,7 +72,7 @@ class RegistrationView(APIView):
 class UserProfile(APIView):
     authentication_classes = [JWTAuthentication]
 
-    def get(request):
+    def get(self, request):
         try:
             current_user = request.user
             if current_user is None:
@@ -85,7 +85,7 @@ class UserProfile(APIView):
             log_error(e, 11000)
             return GenericException()
 
-    def patch(request):
+    def patch(self, request):
         try:
             with transaction.atomic():
                 user = request.user
@@ -122,7 +122,7 @@ class UserProfile(APIView):
 class InitiateResetPassword(APIView):
     permission_classes = [PublicAPIPermission]
 
-    def post(request):
+    def post(self, request):
         try:
             serializer = PasswordResetSerializer(data=request.data)
             
